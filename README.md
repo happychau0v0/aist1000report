@@ -9,6 +9,7 @@ Code borrowed from https://github.com/mohaimenz/acdnet
 3. Install `wget` for downloading ESC-50 over HTTP
 4. Install `FFmpeg` for downsampling and upsampling audio recordings
 
+To enable CUDA for faster computation, you may have to install drivers from Nvidia: https://developer.nvidia.com/cuda-downloads
 ##### Note
 * This version of ACDNet is tested on Fedora 36.
 

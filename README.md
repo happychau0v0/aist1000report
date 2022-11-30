@@ -1,4 +1,4 @@
-# aist1000 report code
+# AIST1000 report code
 
 Code borrowed from https://github.com/mohaimenz/acdnet
 
@@ -10,7 +10,7 @@ Code borrowed from https://github.com/mohaimenz/acdnet
 4. Install `FFmpeg` for downsampling and upsampling audio recordings
 
 ##### Note
-* This version of ACDNet is tested on Fedora 36.*
+* This version of ACDNet is tested on Fedora 36.
 
 #### A.2 Dataset preparation
 1. Download/clone the repository.
@@ -18,9 +18,9 @@ Code borrowed from https://github.com/mohaimenz/acdnet
 3. To download and process ESC-50 dataset, run: ```python common/prepare_dataset.py```
 4. Prepare the validation data, run: ```python common/val_generator.py```
 
-*All the required data of ESC-50 for processing `20kHz` are now ready at `datasets/esc50` directory*
+*All the required data of ESC-50 for processing `20kHz` are now ready at `datasets/esc50` directory
 
 #### A.3 Training ACDNet (PyTorch)
-*The experimented models is in `model/trained_fold1.pt` that can be used instead of training a new model.*
+*The experimented models is in `model/trained_fold1.pt` that can be used instead of training a new model.
 
-However, to conduct the training of a brand new ACDNet, run: ```python torch/trainer.py```
+To retrain existing model or conduct the training of a brand new ACDNet, run: ```python torch/trainer.py```

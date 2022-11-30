@@ -1,9 +1,11 @@
 # AIST1000 report code
 
 Code borrowed from https://github.com/mohaimenz/acdnet
+Original publish: https://arxiv.org/abs/2103.03483 
 
 #### A.1 Prerequisits
 1. Create `python 3.7+` development environment 
+It is highly suggested to install libraries in python virtual environment.
 2. Install `torch 1.7.1` or higher.
 2. Install `wavio 0.0.4` python library
 3. Install `wget` for downloading ESC-50 over HTTP

@@ -24,3 +24,6 @@ Code borrowed from https://github.com/mohaimenz/acdnet
 *The experimented models is in `model/trained_fold1.pt` that can be used instead of training a new model.
 
 To retrain existing model or conduct the training of a brand new ACDNet, run: ```python trainer.py```
+
+#### A.4 Testing models (PyTorch)
+Test any model by running ```python tester.py```

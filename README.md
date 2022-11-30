@@ -1,6 +1,6 @@
 # AIST1000 report code
 
-Code borrowed from https://github.com/mohaimenz/acdnet
+Code modified from https://github.com/mohaimenz/acdnet
 Original publish: https://arxiv.org/abs/2103.03483 
 
 #### A.1 Prerequisits

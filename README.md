@@ -3,7 +3,7 @@
 Code modified from https://github.com/mohaimenz/acdnet
 Original publish: https://arxiv.org/abs/2103.03483 
 
-#### A.1 Prerequisits
+#### 1. Prerequisits
 1. Create `python 3.7+` development environment 
 It is highly suggested to install libraries in python virtual environment.
 2. Install `torch 1.7.1` or higher.
@@ -15,7 +15,7 @@ To enable CUDA for faster computation, you may have to install drivers from Nvid
 ##### Note
 * This version of ACDNet is tested on Fedora 36.
 
-#### A.2 Dataset preparation
+#### 2. Dataset preparation
 1. Download/clone the repository.
 2. Go to the root of directory using the terminal.
 3. To download and process ESC-50 dataset, run: ```python prepare_dataset.py```
@@ -23,10 +23,10 @@ To enable CUDA for faster computation, you may have to install drivers from Nvid
 
 *All the required data of ESC-50 for processing `20kHz` are now ready at `datasets/esc50` directory
 
-#### A.3 Training ACDNet
+#### 3. Training ACDNet
 *The experimented models is in `model/trained_fold1.pt` that can be used instead of training a new model.
 
 To retrain existing model or conduct the training of a brand new ACDNet, run: ```python trainer.py```
 
-#### A.4 Testing models
+#### 4. Testing models
 Test any model by running ```python tester.py```
